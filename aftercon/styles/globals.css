@@ -1,0 +1,15 @@
+html,
+body {
+  padding: 0px;
+  margin: 0px;
+  border-style: none;
+}
+button:hover {
+  cursor: pointer;
+}
+* {
+  box-sizing: border-box;
+}
+
+
+
