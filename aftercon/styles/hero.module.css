@@ -1,0 +1,103 @@
+
+.hero_welcome {
+    display: flex;
+    justify-content: space-between;
+  }
+  .hero_welcome_action {
+    margin-left: 187px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .hero_welcome_action > h1 {
+    font-family: "Judson";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 74px;
+  
+    color: #ffffff;
+  }
+  .hero_welcome_action > h2 {
+    font-family: "Judson";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 37px;
+    text-align: right;
+  
+    color: #ffffff;
+  }
+  .action_input_container {
+    position: relative;
+  }
+  .action_input_container > input {
+    box-sizing: border-box;
+    width: 756px;
+    height: 70px;
+    left: 187px;
+    top: 558px;
+  
+    background: transparent;
+    border: 1px solid #686868;
+    border-radius: 20px;
+  
+    font-family: "Kantumruy";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 65px;
+    padding-left: 26px;
+  
+    color: #ffffff;
+  }
+  
+  .action_input_container > button {
+    position: absolute;
+    width: 253px;
+    height: calc(100% - 2px);
+    right: 1px;
+    top: 1px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+  
+    color: #000000;
+  
+    background: #ff45f8;
+    border-radius: 20px;
+    border: none;
+  }
+
+  .hero_community {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 187px;
+  }
+  
+  .hero_community_title {
+    font-family: "Judson";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 74px;
+  
+    color: #ffffff;
+  
+    width: 613px;
+  }
+  
+  .hero_community_text {
+    font-family: "Judson";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 37px;
+  
+    color: #ffffff;
+  
+    margin-right: 50px;
+  }
